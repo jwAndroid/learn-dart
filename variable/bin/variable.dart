@@ -1,20 +1,18 @@
 void main(List<String> arguments) {
-  dynamic name = "name1";
-  Object name2 = "name2";
-  String name3 = "name3";
-  var value = "value";
+  Object obj = true;
 
-  dynamic x;
-  x = "1";
-  x = "2";
+  // 주요 자료형
+  int x = 5; // 정수
+  num n = 10; // 정수
+  num m = 10.5; // or 실수
+  double y = 1.2; // 실수
+  String s = "hello_world"; //문자 or 열
+  bool bo = true;
 
-  dynamic y;
-  y = "3";
-  y = 4;
+  var value = "a"; // 입력을 받은 값에 따라 자료형 결정 (이후 변경 불가)
+  // value = 1; x
+  dynamic dy = 3; // 입력을 받은 값에 따라 자료형 결정 (이후 변경 가능)
+  dy = "123"; // o
 
-  const my = "me";
-
-  my = "ji";
-
-  print(y);
+  const co = "hello";
 }
