@@ -1,5 +1,9 @@
+import 'package:learn_dart/learn_dart.dart' as learn_dart;
+
 void main(List<String> arguments) {
-  Object obj = true;
+  print('Hello world');
+
+    Object obj = true;
 
   // 주요 자료형
   int x = 5; // 정수
@@ -15,4 +19,6 @@ void main(List<String> arguments) {
   dy = "123"; // o
 
   const co = "hello";
+
+  print(calculate2(1, 2));
 }
