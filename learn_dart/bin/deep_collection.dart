@@ -60,3 +60,10 @@ void list6() {
 
   print(newMap.toList());
 }
+
+void filter() {
+  var list = [1, 2, 3, 4];
+  var result = list.where((element) => element == 3);
+
+  print(result.toList());
+}
