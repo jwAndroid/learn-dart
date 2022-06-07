@@ -1,3 +1,4 @@
+
 void main() {
   list7();
 }
@@ -6,6 +7,8 @@ void list1() {
   List<int> arr = [1, 2, 3, 4, 5];
 
   var mArr = [1, 2, 3, 4, 5, "asd"];
+
+  //  List arr2 = [1, 2, 3, 4, 5]; 타입 생략 가능.
 
   print(mArr);
 
@@ -52,6 +55,7 @@ void list4() {
     print(list.runtimeType);
   }
   print(list.first);
+  print(list.removeAt(1));
   print(list.last);
   print(list.isNotEmpty);
 }
