@@ -13,6 +13,8 @@ void main() {
   print(b);
   print(b2);
 
+  
+
   /**
    * const : 컴파일시 기계어로 번역될 때 값이 결정
    *  
